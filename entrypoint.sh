@@ -17,7 +17,7 @@ then
 fi
 
 # Export for project
-echo "Building $1 for $2"
+echo "Building $1 for $2 - Test"
 mkdir -p $GITHUB_WORKSPACE/build/${SubDirectoryLocation:-""}
 cd ${5-"$GITHUB_WORKSPACE"}
 echo "Before Build"
